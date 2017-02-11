@@ -1,0 +1,3 @@
+project.lock.json
+app.secrets.config
+connectionstrings.secrets.config
