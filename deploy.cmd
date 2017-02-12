@@ -91,7 +91,7 @@ IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
 IF !ERRORLEVEL! NEQ 0 goto error
 :: 4. Copy secrets
 IF /I "%IN_PLACE_DEPLOYMENT%" NEQ "1" (
-  call :ExecuteCmd "xcopy" /Y "%DEPLOYMENT_TARGET%\..\secrets\*.config" "%DEPLOYMENT_TARGET"
+  call :ExecuteCmd "xcopy" /Y "%DEPLOYMENT_TARGET%\..\secrets\*.config" "%DEPLOYMENT_TARGET%"
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
