@@ -12,7 +12,7 @@ Then [Doom](http://rome.ro/) came along and text gaming went away.
 The first [text message](https://en.wikipedia.org/wiki/Text_messaging) was sent in 1992.   
 Texting is the most widely used and frequently used app on smartphones.
 
-A conversational agent (aka Dungeon Master) is a bot that understands, reacts, and empathizes.  
+A conversational agent (aka Dungeon Master) is a bot that understands, reacts, responds, empathizes, and tells a story.  
 
 ## Building a Bot
 Start with the [Azure Bot Service - chatbot](https://azure.microsoft.com/en-ca/services/bot-service/)
