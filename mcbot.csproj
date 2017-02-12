@@ -91,7 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="app.secrets.config" />
     <Content Include="readme.md" />
     <Content Include="app.manifest" />
     <Content Include="project.json" />
