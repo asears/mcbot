@@ -1,5 +1,5 @@
 git add --all
 git status 
-pause > null
-git commit -m "autocommit"
+pause
+git commit -m "gitatme-%1"
 git push
