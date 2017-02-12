@@ -126,7 +126,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="project.json" />
+    <None Include="packages.config" />
     <Content Include="app.secrets.config" />
     <Content Include="readme.md" />
     <Content Include="app.manifest" />

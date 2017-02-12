@@ -71,6 +71,8 @@ This may need to go in the app manifest, if you get 500 server error.
 ```
 
 ## Links
+[Bot Directory](https://bots.botframework.com/)
+https://www.kik.com/about/
 
 *To learn how to debug Azure Bot Service bots, please visit [bf-docs-azure-debug](https://aka.ms/bf-docs-azure-debug)*  
 
