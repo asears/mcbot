@@ -69,7 +69,7 @@ echo Handling .NET Web Application deployment.
 
 :: 1. Restore NuGet packages
 IF /I "mcbot.sln" NEQ "" (
-  call :ExecuteCmd nuget restore "%DEPLOYMENT_SOURCE%\mcbot.sln"
+  call :ExecuteCmd nuget restore "%DEPLOYMENT_SOURCE%\Bot.sln"
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
