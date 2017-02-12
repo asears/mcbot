@@ -1,6 +1,2 @@
-
-@echo off
-echo Deploying files...
-dir %DEPLOYMENT_SOURCE%
-dir %DEPLOYMENT_TARGET%
-xcopy %DEPLOYMENT_SOURCE%\..\secrets\*.* %DEPLOYMENT_TARGET% /Y
+[config]
+command = deploy.cmd

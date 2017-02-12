@@ -70,9 +70,22 @@ This may need to go in the app manifest, if you get 500 server error.
 <requestedExecutionLevel level="requireAdministrator" uiAccess="true" />
 ```
 
+## Kudu deployment Script
+A deployment script can be generated and modified using the following commands:  
+```
+azure config mode asm  
+azure site deploymentscript --aspWAP mcbot.csproj -s mcbot.sln
+```
+It will generate .deployment and deploy.cmd files.
+
 ## Links
-[Bot Directory](https://bots.botframework.com/)
-https://www.kik.com/about/
+[Bot Directory](https://bots.botframework.com/)  
+https://www.kik.com/about/  
+https://telegram.org/  
+https://groupme.com/en-US/about  
+https://teams.microsoft.com/downloads  
+https://blogs.msdn.microsoft.com/kaushal/2014/08/01/microsoft-azure-web-site-connect-to-your-site-via-ftp-and-uploaddownload-files/  
+
 
 *To learn how to debug Azure Bot Service bots, please visit [bf-docs-azure-debug](https://aka.ms/bf-docs-azure-debug)*  
 
