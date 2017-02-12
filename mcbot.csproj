@@ -126,11 +126,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="project.json" />
     <None Include="packages.config" />
     <Content Include="app.secrets.config" />
     <Content Include="readme.md" />
     <Content Include="app.manifest" />
+    <Content Include="project.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
