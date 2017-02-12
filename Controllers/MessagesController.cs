@@ -24,9 +24,21 @@ namespace mcbot
                 ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
                 // calculate something for us to return
                 int length = (activity.Text ?? string.Empty).Length;
+                Activity reply = activity.CreateReply($"no reply at all");
 
-                // return our reply to the user
-                Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+                if (length > 0)
+                {
+                    if (activity.Text == "hello")
+                    {
+                        // return our reply to the user
+                         reply = activity.CreateReply($"what's up?");
+                    }
+                }
+                else
+                {
+                    // return our reply to the user
+                     reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
+                }
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
             else
